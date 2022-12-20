@@ -32,6 +32,31 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Enemie.cpp" />
+		<Unit filename="Enemie.h" />
+		<Unit filename="Jaguar.cpp" />
+		<Unit filename="Jaguar.h" />
+		<Unit filename="Jeu.cpp" />
+		<Unit filename="Jeu.h" />
+		<Unit filename="Joueur.cpp" />
+		<Unit filename="Joueur.h" />
+		<Unit filename="Lion.cpp" />
+		<Unit filename="Lion.h" />
+		<Unit filename="Obstacle.cpp" />
+		<Unit filename="Obstacle.h" />
+		<Unit filename="Occupant.cpp" />
+		<Unit filename="Occupant.h" />
+		<Unit filename="Participant.cpp" />
+		<Unit filename="Participant.h" />
+		<Unit filename="Piege.cpp" />
+		<Unit filename="Piege.h" />
+		<Unit filename="Plateau.cpp" />
+		<Unit filename="Plateau.h" />
+		<Unit filename="Position.cpp" />
+		<Unit filename="Position.h" />
+		<Unit filename="Vide.cpp" />
+		<Unit filename="Vide.h" />
+		<Unit filename="constants.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

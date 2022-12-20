@@ -1,5 +1,5 @@
 //
-// Created by oreste on 11/11/22.
+// Created by groupe 12_2022-2023 on 11/11/22.
 //
 #include "Position.h"
 #ifndef CHASSE_PAR_FAUVES_OCCUPANT_H
@@ -12,7 +12,7 @@ class Occupant {
 public:
     Occupant();
 
-    //This type will help us to determine the way to display the item
+    // Ce type nous aidera à déterminer la manière d'afficher l'élément
     virtual unsigned int getType()const=0;
 
 };

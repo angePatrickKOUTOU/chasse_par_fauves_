@@ -1,5 +1,5 @@
 //
-// Created by oreste on 09/11/22.
+// Created by groupe 12_2022-2023 on 09/11/22.
 //
 
 #ifndef CHASSE_PAR_FAUVES_PLATEAU_H
@@ -18,7 +18,7 @@ typedef Occupant* OccupantPtr;
 class Plateau {
 
 private:
-    unsigned int d_nl,d_nc;
+    unsigned int d_nombreLigne,d_nombreColonne;
 
     // Le tableau contigu
     OccupantPtr *grille;
@@ -35,7 +35,7 @@ private:
 
 public:
 
-    Plateau(unsigned int nl,unsigned int nc,OccupantPtr *);
+    Plateau(unsigned int nombreLigne,unsigned int nombreColonne,OccupantPtr *);
     explicit Plateau(OccupantPtr*occupants);
     Plateau(unsigned int,OccupantPtr*occupants);
     Plateau(const Plateau& t);
@@ -52,7 +52,7 @@ public:
 // Pour dupliquer un autre tableau
     Plateau& operator=(const Plateau& t) ;
 // Pour connaître ses dimensions
-    unsigned int get_nl() const; unsigned int get_nc() const;
+    unsigned int get_nombreLigne() const; unsigned int get_nombreColonne() const;
 // Pour afficher son contenu
     friend ostream& operator<<(ostream& os,const Plateau& t);
     void afficher()const;
